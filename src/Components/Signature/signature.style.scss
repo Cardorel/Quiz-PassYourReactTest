@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fredericka+the+Great&display=swap');
+
+.signature{ 
+    p {
+    background: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.3) 50%), linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.3)50%);
+    background-size: 2px 4px, 4px 2px;
+    font-family: "black ops one", cursive;
+    display: inline-block;
+    margin: 0 1em 1em;
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: #7fc9fa;
+    transform: rotate(-5deg);
+
+    span {
+        font-family: 'Fredericka the Great', cursive;
+        width: 12.3em;
+        letter-spacing: 10px;
+        display: inline-block;
+        padding: 0.3em;
+        border-radius: 15px;
+        box-shadow: 0 0 0 5px, inset 0 0 0 5px white, inset 0 0 0 8px, inset 0 0 0 400px white;
+        mix-blend-mode: overlay;
+        outline-offset: -1px;
+        outline: solid 8px;
+        margin: 8px;
+
+        &:first-line,
+        p:first-line {
+            letter-spacing: 0;
+        }
+    }
+
+}}
+
+
+
+@media (max-width: 320px){
+    .signature{ 
+        p {
+          margin: 0 !important;
+          font-size: 20px;
+          span{
+            width: 10.3em !important;
+          }
+        }
+    }
+}
+
+
+@media (max-width: 768px){
+    .signature{ 
+        p {
+          margin: 0 !important;
+          span{
+            width: 10.3em;
+          }
+        }
+    }
+}

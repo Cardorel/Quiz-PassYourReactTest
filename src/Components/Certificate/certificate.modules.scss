@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+.certificate-container{
+   width: 100%;
+   border: 8px solid #7fc9fa;
+   padding: 15px 0 22px 0;
+   font-family: 'Suravaram', serif;
+   .appreciation{
+    font-family: 'Sail', cursive;
+   }
+
+   .bar-down{
+       width: 30%;
+       margin: auto;
+       height: 1px;
+       background-color: black;
+   }
+}
+
+@media (max-width: 320px){
+    .certificate-container{
+        .w-100 m-0.p-0{
+            font-size: 12px;
+        }
+    }
+}

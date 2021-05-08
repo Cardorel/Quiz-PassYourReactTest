@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.browser-design-conatiner-all{
+  position: absolute;
+    top: 15%;
+    left: 13%;
+    z-index: 100;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 1px 15px -4px rgba(0,0,0,0.81); 
+    box-shadow: 0px 1px 15px -4px rgba(0,0,0,0.81);
+}
+
+@media (min-width: 150px) and (max-width: 369px){
+  .browser-design-conatiner-all{
+    top: 15% !important;
+}
+}
+
+@media (max-width: 768px){
+  .browser-design-conatiner-all{
+      top: 10% ;
+      left: 13%;
+  }
+  }

@@ -1,0 +1,10 @@
+@media (max-width: 500px){
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h4 , p {
+            text-align: center;
+        }
+    }
+}

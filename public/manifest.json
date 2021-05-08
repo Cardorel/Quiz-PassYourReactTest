@@ -1,0 +1,15 @@
+{
+  "short_name": "Pass your React Test",
+  "name": "Pass your react test(React Quiz)",
+  "icons": [
+    {
+      "src": "quiz-logo.png",
+      "type": "image/png",
+      "sizes": "84x65"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
